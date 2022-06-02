@@ -6,8 +6,6 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        cycle = False
-        pos = 0
         visited = []
         visited.append(head)
         while head:
